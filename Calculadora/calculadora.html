@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="Estilo.css">
+</head>
+<body>
+    
+    </div>
+    <script src="script.js"></script>
+<div class="fundo">
+<h1 style="color: black;">joão Arthur</h1>
+<div class="calculadora">
+    <h2>Calculadora</h2>
+    <p id="resultado"></p>
+    <table>
+        <tr>
+            <td><button class="botão" onclick="clean()" style="box-shadow: white 1px 1px 1px 1px; background-color: black; color: orange ;">C</button></td>
+            <td><button class="botão" onclick="back()" style=" box-shadow: white 1px 1px 1px 1px; background-color: black;  color: orange;">R</button></td>
+            <td><button class="botão" onclick="insert('/')"  style="box-shadow: white 1px 1px 1px 1px; background-color: black; color: orange;">/</button></td>
+            <td><button class="botão" onclick="insert('*')"  style="box-shadow: white 1px 1px 1px 1px; background-color: black; color: orange;">X</button></td>
+        </tr>
+        <tr>
+            <td><button class="botão" onclick="insert('7')">7</button></td>
+            <td><button class="botão" onclick="insert('8')">8</button></td>
+            <td><button class="botão" onclick="insert('9')">9</button></td>
+            <td><button  class="botão" onclick="insert('-')"  style="box-shadow: white 1px 1px 1px 1px; background-color:  black; color: orange;"> -</button></td>
+        </tr>
+        <tr>
+            <td><button class="botão" onclick="insert('4')">4</button></td>
+            <td><button class="botão" onclick="insert('5')">5</button></td>
+            <td><button class="botão" onclick="insert('6')">6</button></td>
+            <td><button class="botão" onclick="insert('+')"  style="box-shadow: white 1px 1px 1px 1px; background-color:  black; color: orange;">+</button></td>
+        </tr>
+        <tr>
+            <td><button class="botão" onclick="insert('1')">1</button></td>
+            <td><button class="botão" onclick="insert('2')">2</button></td>
+            <td><button class="botão" onclick="insert('3')">3</button></td>
+            <td rowspan="2"><button class="botão" style="box-shadow: white 1px 1px 1px 1px; height: 106px; background-color: black; color: orange"" onclick="calcular()"> = </button></td>
+        </tr>
+        <tr>
+            <td colspan="2"><button class="botão" onclick="insert('0')" style="width: 106px;">0</button></td>
+            <td><button class="botão" onclick="insert('.')">.</button></td>
+        </tr>
+    </table>
+</div>   
+</div>
+    
+</body>
+</html>
